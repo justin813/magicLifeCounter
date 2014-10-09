@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52331D4719E6FE4F008734C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4619E6FE4F008734C1 /* Foundation.framework */; };
+		52331D4919E6FE4F008734C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4819E6FE4F008734C1 /* CoreGraphics.framework */; };
+		52331D4B19E6FE4F008734C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4A19E6FE4F008734C1 /* UIKit.framework */; };
+		52331D5119E6FE4F008734C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52331D4F19E6FE4F008734C1 /* InfoPlist.strings */; };
+		52331D5319E6FE4F008734C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52331D5219E6FE4F008734C1 /* main.m */; };
+		52331D5719E6FE4F008734C1 /* JGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52331D5619E6FE4F008734C1 /* JGAppDelegate.m */; };
+		52331D5A19E6FE4F008734C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52331D5819E6FE4F008734C1 /* Main.storyboard */; };
+		52331D5D19E6FE4F008734C1 /* JGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52331D5C19E6FE4F008734C1 /* JGViewController.m */; };
+		52331D5F19E6FE4F008734C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52331D5E19E6FE4F008734C1 /* Images.xcassets */; };
+		52331D6619E6FE4F008734C1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D6519E6FE4F008734C1 /* XCTest.framework */; };
+		52331D6719E6FE4F008734C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4619E6FE4F008734C1 /* Foundation.framework */; };
+		52331D6819E6FE4F008734C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4A19E6FE4F008734C1 /* UIKit.framework */; };
+		52331D7019E6FE4F008734C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52331D6E19E6FE4F008734C1 /* InfoPlist.strings */; };
+		52331D7219E6FE4F008734C1 /* magicLifeCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52331D7119E6FE4F008734C1 /* magicLifeCounterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52331D6919E6FE4F008734C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52331D3B19E6FE4F008734C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52331D4219E6FE4F008734C1;
+			remoteInfo = magicLifeCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52331D4319E6FE4F008734C1 /* magicLifeCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magicLifeCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52331D4619E6FE4F008734C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52331D4819E6FE4F008734C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52331D4A19E6FE4F008734C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52331D4E19E6FE4F008734C1 /* magicLifeCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magicLifeCounter-Info.plist"; sourceTree = "<group>"; };
+		52331D5019E6FE4F008734C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52331D5219E6FE4F008734C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52331D5419E6FE4F008734C1 /* magicLifeCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magicLifeCounter-Prefix.pch"; sourceTree = "<group>"; };
+		52331D5519E6FE4F008734C1 /* JGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGAppDelegate.h; sourceTree = "<group>"; };
+		52331D5619E6FE4F008734C1 /* JGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGAppDelegate.m; sourceTree = "<group>"; };
+		52331D5919E6FE4F008734C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52331D5B19E6FE4F008734C1 /* JGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGViewController.h; sourceTree = "<group>"; };
+		52331D5C19E6FE4F008734C1 /* JGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGViewController.m; sourceTree = "<group>"; };
+		52331D5E19E6FE4F008734C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52331D6419E6FE4F008734C1 /* magicLifeCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicLifeCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52331D6519E6FE4F008734C1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52331D6D19E6FE4F008734C1 /* magicLifeCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magicLifeCounterTests-Info.plist"; sourceTree = "<group>"; };
+		52331D6F19E6FE4F008734C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52331D7119E6FE4F008734C1 /* magicLifeCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magicLifeCounterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52331D4019E6FE4F008734C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D4919E6FE4F008734C1 /* CoreGraphics.framework in Frameworks */,
+				52331D4B19E6FE4F008734C1 /* UIKit.framework in Frameworks */,
+				52331D4719E6FE4F008734C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52331D6119E6FE4F008734C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D6619E6FE4F008734C1 /* XCTest.framework in Frameworks */,
+				52331D6819E6FE4F008734C1 /* UIKit.framework in Frameworks */,
+				52331D6719E6FE4F008734C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52331D3A19E6FE4F008734C1 = {
+			isa = PBXGroup;
+			children = (
+				52331D4C19E6FE4F008734C1 /* magicLifeCounter */,
+				52331D6B19E6FE4F008734C1 /* magicLifeCounterTests */,
+				52331D4519E6FE4F008734C1 /* Frameworks */,
+				52331D4419E6FE4F008734C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52331D4419E6FE4F008734C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52331D4319E6FE4F008734C1 /* magicLifeCounter.app */,
+				52331D6419E6FE4F008734C1 /* magicLifeCounterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52331D4519E6FE4F008734C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52331D4619E6FE4F008734C1 /* Foundation.framework */,
+				52331D4819E6FE4F008734C1 /* CoreGraphics.framework */,
+				52331D4A19E6FE4F008734C1 /* UIKit.framework */,
+				52331D6519E6FE4F008734C1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52331D4C19E6FE4F008734C1 /* magicLifeCounter */ = {
+			isa = PBXGroup;
+			children = (
+				52331D5519E6FE4F008734C1 /* JGAppDelegate.h */,
+				52331D5619E6FE4F008734C1 /* JGAppDelegate.m */,
+				52331D5819E6FE4F008734C1 /* Main.storyboard */,
+				52331D5B19E6FE4F008734C1 /* JGViewController.h */,
+				52331D5C19E6FE4F008734C1 /* JGViewController.m */,
+				52331D5E19E6FE4F008734C1 /* Images.xcassets */,
+				52331D4D19E6FE4F008734C1 /* Supporting Files */,
+			);
+			path = magicLifeCounter;
+			sourceTree = "<group>";
+		};
+		52331D4D19E6FE4F008734C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52331D4E19E6FE4F008734C1 /* magicLifeCounter-Info.plist */,
+				52331D4F19E6FE4F008734C1 /* InfoPlist.strings */,
+				52331D5219E6FE4F008734C1 /* main.m */,
+				52331D5419E6FE4F008734C1 /* magicLifeCounter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52331D6B19E6FE4F008734C1 /* magicLifeCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				52331D7119E6FE4F008734C1 /* magicLifeCounterTests.m */,
+				52331D6C19E6FE4F008734C1 /* Supporting Files */,
+			);
+			path = magicLifeCounterTests;
+			sourceTree = "<group>";
+		};
+		52331D6C19E6FE4F008734C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52331D6D19E6FE4F008734C1 /* magicLifeCounterTests-Info.plist */,
+				52331D6E19E6FE4F008734C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52331D4219E6FE4F008734C1 /* magicLifeCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52331D7519E6FE4F008734C1 /* Build configuration list for PBXNativeTarget "magicLifeCounter" */;
+			buildPhases = (
+				52331D3F19E6FE4F008734C1 /* Sources */,
+				52331D4019E6FE4F008734C1 /* Frameworks */,
+				52331D4119E6FE4F008734C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magicLifeCounter;
+			productName = magicLifeCounter;
+			productReference = 52331D4319E6FE4F008734C1 /* magicLifeCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52331D6319E6FE4F008734C1 /* magicLifeCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52331D7819E6FE4F008734C1 /* Build configuration list for PBXNativeTarget "magicLifeCounterTests" */;
+			buildPhases = (
+				52331D6019E6FE4F008734C1 /* Sources */,
+				52331D6119E6FE4F008734C1 /* Frameworks */,
+				52331D6219E6FE4F008734C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52331D6A19E6FE4F008734C1 /* PBXTargetDependency */,
+			);
+			name = magicLifeCounterTests;
+			productName = magicLifeCounterTests;
+			productReference = 52331D6419E6FE4F008734C1 /* magicLifeCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52331D3B19E6FE4F008734C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					52331D6319E6FE4F008734C1 = {
+						TestTargetID = 52331D4219E6FE4F008734C1;
+					};
+				};
+			};
+			buildConfigurationList = 52331D3E19E6FE4F008734C1 /* Build configuration list for PBXProject "magicLifeCounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52331D3A19E6FE4F008734C1;
+			productRefGroup = 52331D4419E6FE4F008734C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52331D4219E6FE4F008734C1 /* magicLifeCounter */,
+				52331D6319E6FE4F008734C1 /* magicLifeCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52331D4119E6FE4F008734C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D5F19E6FE4F008734C1 /* Images.xcassets in Resources */,
+				52331D5119E6FE4F008734C1 /* InfoPlist.strings in Resources */,
+				52331D5A19E6FE4F008734C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52331D6219E6FE4F008734C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D7019E6FE4F008734C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52331D3F19E6FE4F008734C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D5319E6FE4F008734C1 /* main.m in Sources */,
+				52331D5D19E6FE4F008734C1 /* JGViewController.m in Sources */,
+				52331D5719E6FE4F008734C1 /* JGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52331D6019E6FE4F008734C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52331D7219E6FE4F008734C1 /* magicLifeCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52331D6A19E6FE4F008734C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52331D4219E6FE4F008734C1 /* magicLifeCounter */;
+			targetProxy = 52331D6919E6FE4F008734C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52331D4F19E6FE4F008734C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52331D5019E6FE4F008734C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52331D5819E6FE4F008734C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52331D5919E6FE4F008734C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52331D6E19E6FE4F008734C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52331D6F19E6FE4F008734C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52331D7319E6FE4F008734C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52331D7419E6FE4F008734C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52331D7619E6FE4F008734C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magicLifeCounter/magicLifeCounter-Prefix.pch";
+				INFOPLIST_FILE = "magicLifeCounter/magicLifeCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52331D7719E6FE4F008734C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magicLifeCounter/magicLifeCounter-Prefix.pch";
+				INFOPLIST_FILE = "magicLifeCounter/magicLifeCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52331D7919E6FE4F008734C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magicLifeCounter.app/magicLifeCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magicLifeCounter/magicLifeCounter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "magicLifeCounterTests/magicLifeCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52331D7A19E6FE4F008734C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/magicLifeCounter.app/magicLifeCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magicLifeCounter/magicLifeCounter-Prefix.pch";
+				INFOPLIST_FILE = "magicLifeCounterTests/magicLifeCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52331D3E19E6FE4F008734C1 /* Build configuration list for PBXProject "magicLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52331D7319E6FE4F008734C1 /* Debug */,
+				52331D7419E6FE4F008734C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52331D7519E6FE4F008734C1 /* Build configuration list for PBXNativeTarget "magicLifeCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52331D7619E6FE4F008734C1 /* Debug */,
+				52331D7719E6FE4F008734C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52331D7819E6FE4F008734C1 /* Build configuration list for PBXNativeTarget "magicLifeCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52331D7919E6FE4F008734C1 /* Debug */,
+				52331D7A19E6FE4F008734C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52331D3B19E6FE4F008734C1 /* Project object */;
+}
