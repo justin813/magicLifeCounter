@@ -21,6 +21,13 @@
 		52331D6819E6FE4F008734C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52331D4A19E6FE4F008734C1 /* UIKit.framework */; };
 		52331D7019E6FE4F008734C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52331D6E19E6FE4F008734C1 /* InfoPlist.strings */; };
 		52331D7219E6FE4F008734C1 /* magicLifeCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52331D7119E6FE4F008734C1 /* magicLifeCounterTests.m */; };
+		52331D7C19E72769008734C1 /* Magic_the_gathering-card_back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52331D7B19E72769008734C1 /* Magic_the_gathering-card_back.jpg */; };
+		52331D7E19E729A7008734C1 /* Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D7D19E729A7008734C1 /* Arrow.png */; };
+		52331D8019E72B7F008734C1 /* Arrow down.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D7F19E72B7F008734C1 /* Arrow down.png */; };
+		52331D8219E73110008734C1 /* resetIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D8119E73110008734C1 /* resetIcon.png */; };
+		52331D8619ED83C2008734C1 /* arrowdowncustom blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D8319ED83C2008734C1 /* arrowdowncustom blue.png */; };
+		52331D8719ED83C2008734C1 /* arrowupcustom - Copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D8419ED83C2008734C1 /* arrowupcustom - Copy.png */; };
+		52331D8819ED83C2008734C1 /* lifecounterbackground2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52331D8519ED83C2008734C1 /* lifecounterbackground2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		52331D6D19E6FE4F008734C1 /* magicLifeCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "magicLifeCounterTests-Info.plist"; sourceTree = "<group>"; };
 		52331D6F19E6FE4F008734C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52331D7119E6FE4F008734C1 /* magicLifeCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = magicLifeCounterTests.m; sourceTree = "<group>"; };
+		52331D7B19E72769008734C1 /* Magic_the_gathering-card_back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Magic_the_gathering-card_back.jpg"; sourceTree = "<group>"; };
+		52331D7D19E729A7008734C1 /* Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arrow.png; sourceTree = "<group>"; };
+		52331D7F19E72B7F008734C1 /* Arrow down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow down.png"; sourceTree = "<group>"; };
+		52331D8119E73110008734C1 /* resetIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resetIcon.png; sourceTree = "<group>"; };
+		52331D8319ED83C2008734C1 /* arrowdowncustom blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowdowncustom blue.png"; sourceTree = "<group>"; };
+		52331D8419ED83C2008734C1 /* arrowupcustom - Copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrowupcustom - Copy.png"; sourceTree = "<group>"; };
+		52331D8519ED83C2008734C1 /* lifecounterbackground2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifecounterbackground2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,7 @@
 				52331D5B19E6FE4F008734C1 /* JGViewController.h */,
 				52331D5C19E6FE4F008734C1 /* JGViewController.m */,
 				52331D5E19E6FE4F008734C1 /* Images.xcassets */,
+				52331D7F19E72B7F008734C1 /* Arrow down.png */,
 				52331D4D19E6FE4F008734C1 /* Supporting Files */,
 			);
 			path = magicLifeCounter;
@@ -126,6 +141,12 @@
 		52331D4D19E6FE4F008734C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52331D8319ED83C2008734C1 /* arrowdowncustom blue.png */,
+				52331D8419ED83C2008734C1 /* arrowupcustom - Copy.png */,
+				52331D8519ED83C2008734C1 /* lifecounterbackground2.png */,
+				52331D8119E73110008734C1 /* resetIcon.png */,
+				52331D7D19E729A7008734C1 /* Arrow.png */,
+				52331D7B19E72769008734C1 /* Magic_the_gathering-card_back.jpg */,
 				52331D4E19E6FE4F008734C1 /* magicLifeCounter-Info.plist */,
 				52331D4F19E6FE4F008734C1 /* InfoPlist.strings */,
 				52331D5219E6FE4F008734C1 /* main.m */,
@@ -229,7 +250,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52331D7E19E729A7008734C1 /* Arrow.png in Resources */,
+				52331D8619ED83C2008734C1 /* arrowdowncustom blue.png in Resources */,
+				52331D7C19E72769008734C1 /* Magic_the_gathering-card_back.jpg in Resources */,
+				52331D8019E72B7F008734C1 /* Arrow down.png in Resources */,
 				52331D5F19E6FE4F008734C1 /* Images.xcassets in Resources */,
+				52331D8219E73110008734C1 /* resetIcon.png in Resources */,
+				52331D8719ED83C2008734C1 /* arrowupcustom - Copy.png in Resources */,
+				52331D8819ED83C2008734C1 /* lifecounterbackground2.png in Resources */,
 				52331D5119E6FE4F008734C1 /* InfoPlist.strings in Resources */,
 				52331D5A19E6FE4F008734C1 /* Main.storyboard in Resources */,
 			);
@@ -457,6 +485,7 @@
 				52331D7719E6FE4F008734C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52331D7819E6FE4F008734C1 /* Build configuration list for PBXNativeTarget "magicLifeCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +494,7 @@
 				52331D7A19E6FE4F008734C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
